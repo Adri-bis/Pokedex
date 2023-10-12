@@ -1,8 +1,14 @@
 import PokemonCard from "./components/PokemonCard";
 import NavBar from "./components/NavBar";
 import { useState } from "react";
+import { useEffect } from "react";
+useEffect(
+  () => {
+    alert("Welcom Sacha de bourg en palais!")
+  }, []);
 
 function App() {
+
   const pokemonList = [
 
     {
